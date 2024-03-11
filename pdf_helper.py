@@ -125,7 +125,7 @@ class MainWindow(QtWidgets.QMainWindow):
             elif self.fname[0].split('.')[-1] in ['png','xpm','jpg']:
                 current_schedule = 0
                 self.progressBar_gaintxt.setMaximum(1)
-                pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+                pytesseract.pytesseract.tesseract_cmd = r".\Tesseract-OCR\tesseract.exe"
                 img = Image.open(self.fname[0])
                 self.text_data = pytesseract.image_to_string(img,lang="chi_tra+eng")
                 current_schedule += 1
