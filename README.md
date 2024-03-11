@@ -3,6 +3,7 @@
 pdf_helper為一款由python製作的離線小軟體，含有pdf轉word檔、pdf及圖檔的文字辨識、pdf分割及合併等功能。
 
 注意:
+
 一、py檔為pdf_helper各功能運作邏輯。
 
 二、ui檔為qt designer軟體產出的介面設計檔案。
